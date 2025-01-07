@@ -1,0 +1,5 @@
+let userInfo = {
+    userName : "D.H Lee",
+    Age : 44, 
+    city : "Seoul",
+}
