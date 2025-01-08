@@ -117,6 +117,8 @@ function App() {
       <FloatingCard/>
     <div className="main-bg"></div>
     <div id="userInfo">{userInfo.userName !==undefined?<span>{userInfo.userName}님 안녕하세요</span>:<><span>로그인을 해주세요</span> <button onClick={getUserInfo}>로그인</button></>}</div>
+    <div id="userInfo">{userInfo.userName !==undefined?<span>{userInfo.userName}님 안녕하세요</span>:<><span>로그인을 해주세요</span> <button onClick={getUserInfo}>로그인</button></>}</div>
+    <div id="userInfo">{userInfo.userName !==undefined?<span>{userInfo.userName}님 안녕하세요</span>:<><span>로그인을 해주세요</span> <button onClick={getUserInfo}>로그인</button></>}</div>
      {boolAleart?<div className="alert" id='mainAlert'>{alertMsg}</div>:null}     
       <Routes>
         <Route path='/' element={
